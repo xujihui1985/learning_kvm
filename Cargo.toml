@@ -1,0 +1,12 @@
+[package]
+name = "kvm-from-scratch"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+kvm-bindings = "0.14"
+libc = "0.2"
+
+# Keep the learning project independent of the parent Firecracker workspace.
+[workspace]
